@@ -189,6 +189,7 @@ div li a {
     align-items: center;
     padding: 2px;
     margin-left: -37px;
+    cursor: pointer;
 
     height: 35px;
   }

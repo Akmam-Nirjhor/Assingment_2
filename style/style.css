@@ -37,7 +37,9 @@ div li a {
 .banner {
   /* background-image: url("/Images/Group 13 (1) (1).png"); */
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("./Images/Group 13 (1) (1).png");
+    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+
+  /* url("./Images/Group 13 (1) (1).png"); */
 
   background-repeat: no-repeat;
   margin-left: 100px;

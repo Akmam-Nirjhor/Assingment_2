@@ -334,6 +334,10 @@ div li a {
 }
 .konkonicon{
   justify-content:space-between;
+  position: relative;
+  top: 0px;
+  left: -500px;
+
 }
 
 .year{

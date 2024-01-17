@@ -136,6 +136,163 @@ div li a {
   color: #070211;
 }
 
+.section_one {
+  margin-top: 50px;
+  background-color: #f9f5f336;
+  width: 73.5%;
+  height: 480px;
+  margin-left: 100px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 0px;
+}
+.content_and_button {
+  padding: 70px;
+  display: flex;
+  margin-left: -160px;
+  word-wrap: break-word;
+}
+.titlez {
+  position: relative;
+  justify-content: center;
+  margin-left: 50px;
+  bottom: -80px;
+  /* left: 200px; */
+}
+/* .section_one {
+  display: flex;
+} */
+.imagez img {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  left: 70px;
+  /* margin-right: 70px; */
+  margin-top: -30px;
+}
+.ppp {
+  word-wrap: break-word;
+  position: relative;
+  margin-left: 140px;
+  /* left: 130px; */
+}
+
+.read_more_btn {
+  padding: 10px;
+  width: 100px;
+  background-color: #f44c0a;
+  border-radius: 10px;
+  align-items: center;
+  padding: 4px;
+  height: 35px;
+  margin-top: 40px;
+}
+.rrr {
+  background-color: #f44c0a;
+  border: #f44c0a;
+  padding: 9px;
+  position: relative;
+  left: 10px;
+}
+
+.section_tow {
+  margin-top: 50px;
+  background-color: #dd4f0836;
+  width: 73.5%;
+  height: auto;
+  margin-left: 100px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.mal img {
+  width: 450px;
+  /* height:; */
+}
+.indo img {
+  width: 400px;
+  height: 100;
+  margin-left: 100px;
+}
+.picture {
+  display: flex;
+  padding: 40px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.section_three {
+  margin-top: 50px;
+  background-color: #f6f2ef36;
+  width: 73.5%;
+  height: 720px;
+  margin-left: 100px;
+  width: 83%;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.de {
+  align-items: center;
+}
+.head_blog {
+  padding: 30px;
+}
+
+.cartek {
+  margin-top: 20px;
+  /* border: 1px solid rgb(6, 2, 17); */
+  padding: 6px 20px;
+}
+.cartek img {
+  padding-left: 40px;
+  width: 50px;
+  height: 20;
+  margin-top: 50px;
+  position: relative;
+  left: 90px;
+}
+.cartdui {
+  /* border: 1px solid rgb(6, 1, 23); */
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+.cartdui img {
+  width: 80px;
+  height: 40;
+  position: relative;
+  left: 90px;
+}
+
+.duita_cart_er_malik {
+  display: flex;
+  justify-content: space-between;
+}
+.chose {
+  position: relative;
+  left: 440px;
+  font: 50px;
+  font-size: 30px;
+}
+.carttni img {
+  width: 80px;
+  height: 40;
+  position: relative;
+  left: 160px;
+}
+.carttni {
+  /* border: 3px solid rgb(1, 0, 5); */
+  padding: 10px 10px;
+  /* border: 1px solid; */
+  width: 430px;
+  position: relative;
+  left: 370px;
+  margin-top: 35px;
+}
+.blog {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 576px) {
   .navigation_bar {
     flex-direction: column;
@@ -170,7 +327,7 @@ div li a {
     /* font-size: 10px; */
   }
   .button {
-    background-color: #f7f3ee3a;
+    background-color: #f4f2ee3a;
     /* width: 73.5%; */
     flex-direction: column;
     gap: 15px;
@@ -198,4 +355,113 @@ div li a {
 
     height: 35.5px;
   }
+  .section_one {
+    flex-direction: column;
+    position: relative;
+    left: -70px;
+    height: 1080px;
+  }
+  .imagez img {
+    width: 100%;
+    grid-template-columns: repeat(1fr);
+
+    width: 320%;
+    height: 350px;
+    position: relative;
+    left: -200px;
+    margin-right: 5px;
+    margin-top: 600px;
+  }
+  .tnd_pic {
+    display: flex;
+  }
+
+  .read_more_btn {
+    /* font-size: 70px; */
+  }
+  /* .ppp{
+    font-size: 20px;
+
+  } */
+
+  .head_blog {
+    padding: 30px;
+  }
+
+  .de {
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .head_blog {
+    padding: 30px;
+    flex-direction: column;
+  
+  .cartek {
+    margin-top: 20px;
+    /* border: 1px solid rgb(6, 2, 17); */
+    padding: 6px 20px;
+    flex-direction: column;
+  }
+  .cartek img {
+    padding-left: 40px;
+    width: 50px;
+    height: 20;
+    margin-top: 50px;
+    position: relative;
+    left: 90px;
+    flex-direction: column;
+  }
+  .cartdui {
+    /* border: 1px solid rgb(6, 1, 23); */
+    padding: 20px 20px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .cartdui img {
+    width: 80px;
+    height: 40;
+    position: relative;
+    left: 90px;
+    flex-direction: column;
+  }
+  
+  .duita_cart_er_malik {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .chose {
+
+    right: -100px;
+    /* right: -440px; */
+    font: 50px;
+    font-size: 30px;
+    flex-direction: column;
+  }
+  .carttni img {
+    width: 80px;
+    height: 40;
+    position: relative;
+    left: 160px;
+    flex-direction: column;
+  }
+  .carttni {
+    /* border: 3px solid rgb(1, 0, 5); */
+    padding: 10px 10px;
+    /* border: 1px solid; */
+    width: 430px;
+    position: relative;
+    left: -10px;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  .blog {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
 }
+
+
+
+

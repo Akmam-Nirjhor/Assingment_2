@@ -293,6 +293,57 @@ div li a {
   margin-bottom: 20px;
 }
 
+.footer{
+  margin-top: 50px;
+  background-color: #e2566015;
+  width: 93.5%;
+  height: 420px;
+  margin-left: 100px;
+  /* width: 83%; */
+  border-radius: 10px;
+  padding: 0px;
+
+}
+
+.headd{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  bottom: -80px;
+
+}
+.matha{
+  font-size: 30px;
+}
+.write{
+  position: relative;
+  bottom: -80px;
+  padding-left: 100px;
+}
+.momo img{
+  width: 20px;
+  position: relative;
+  bottom: -150px;
+  left: 560px;
+}
+.momo {
+  justify-content:space-between;
+}
+.konkonicon{
+  justify-content:space-between;
+}
+
+.year{
+  position: relative;
+  bottom: -200px;
+  padding-left: 520px;
+}
+
+
+
 @media screen and (max-width: 576px) {
   .navigation_bar {
     flex-direction: column;
@@ -452,7 +503,7 @@ div li a {
     /* border: 1px solid; */
     width: 430px;
     position: relative;
-    left: -10px;
+    left: -1px;
     margin-top: 35px;
     flex-direction: column;
   }
@@ -460,6 +511,10 @@ div li a {
     margin-bottom: 20px;
     flex-direction: column;
   }
+
+
+
+
 }
 
 
